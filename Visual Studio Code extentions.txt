@@ -1,0 +1,12 @@
+1. Auto Close Tag
+2. Auto Rename Tag
+Jun Han
+3. EditorConfig for VS Code
+4. HTML CSS Support
+5. Live Server
+6. open in browser
+7. vscode-icons
+-------------------------------------------
+8. IntelliSence for CSS class names in HTML
+9. scss-to-css
+10.Path Intellisense
