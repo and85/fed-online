@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- Submit and reset inputs -->
+    <p>
+        <h2>Submit and reset inputs:</h2>
+        <form action="">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+          </form>
+    </p>
+    <hr>
+    
+    <!-- Button input -->
+    <p>
+      <h2>Button input:</h2>  
+      <form action="">
+        <input type="button" onclick="alert('Button clicked!')" value="Click Me!">
+      </form>
+    </p>
+    <hr>
+
+    <!-- Color input -->
+    <p>
+        <h2>Color input:</h2>  
+        <form action="">
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor">
+        </form>
+      </p>
+      <hr>
+
+    <!-- Date input -->
+    <p>
+        <h2>Date input:</h2>  
+        <form action="">
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+        </form>
+      </p>
+      <hr>
+
+    <!-- Datetime-local input -->
+    <p>
+        <h2>Datetime-local input:</h2>  
+        <form>
+            <label for="birthdaytime">Birthday (date and time):</label>
+            <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+          </form>
+    </p>
+    <hr>
+
+    <!-- Email input -->
+    <p>
+        <h2>Email input:</h2>  
+        <form>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email">
+        </form>
+    </p>
+    <hr>
+
+    <!-- Image input -->
+    <p>
+        <h2>Image input:</h2>  
+        <form>
+            <input type="image" src="CuteCat.jpg" alt="Submit" width="96" height="96">
+        </form>
+    </p>
+    <hr>
+
+    <!-- File input -->
+    <p>
+        <h2>File input:</h2>  
+        <form>
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile">
+          </form>
+    </p>
+    <hr>
+
+    <!-- Hidden input -->
+    <p>
+        <h2>Hidden input:</h2>  
+        <form>
+            <input type="hidden" id="custId" name="custId" value="3487">
+          </form>
+    </p>
+    <hr>
+
+    <!-- Month input -->
+    <p>
+        <h2>Month input:</h2>  
+        <form>
+            <label for="bdaymonth">Birthday (month and year):</label>
+            <input type="month" id="bdaymonth" name="bdaymonth">
+          </form>
+    </p>
+    <hr>
+
+    <!-- Number input -->
+    <p>
+        <h2>Number input:</h2>  
+        <form>
+            <label for="quantity">Quantity (between 1 and 5):</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="5">
+          </form>
+    </p>
+    <hr>
+    
+    <!-- Range input -->
+    <p>
+        <h2>Range input:</h2>  
+        <form>
+            <label for="vol">Volume (between 0 and 50):</label>
+            <input type="range" id="vol" name="vol" min="0" max="50">
+          </form>
+    </p>
+    <hr>
+
+    <!-- Search input -->
+    <p>
+        <h2>Search input:</h2>  
+        <form>
+            <label for="gsearch">Search Google:</label>
+            <input type="search" id="gsearch" name="gsearch">
+        </form>
+    </p>
+    <hr>
+
+    <!-- Tel input -->
+    <p>
+        <h2>Tel input:</h2>  
+        <form>
+            <label for="phone">Enter your phone number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="+48-123-456-789" pattern="+[0-9]{2}-[0-9]{3}-[0-9]{3}-[0-9]{3}">
+        </form>
+    </p>
+    <hr>
+
+     <!-- Time input -->
+     <p>
+        <h2>Time input:</h2>  
+        <form>
+            <label for="appt">Select a time:</label>
+            <input type="time" id="appt" name="appt">
+        </form>
+    </p>
+    <hr>
+
+    <!-- Url input -->
+    <p>
+        <h2>Url input:</h2>  
+        <form>
+            <label for="homepage">Add your homepage:</label>
+            <input type="url" id="homepage" name="homepage">
+        </form>
+    </p>
+    <hr>
+
+    <!-- Week input -->
+    <p>
+        <h2>Week input:</h2>  
+        <form>
+            <label for="week">Select a week:</label>
+            <input type="week" id="week" name="week">
+        </form>
+    </p>
+    <hr>
+</body>
+</html>
